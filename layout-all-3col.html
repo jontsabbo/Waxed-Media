@@ -1,0 +1,1517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta content="initial-scale=1.0" name="viewport">
+        <meta content="telephone=no" name="format-detection">
+        <title>Legacy Liberty</title>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:300,100,400" rel="stylesheet" type="text/css">
+        <style type="text/css">/* Resets: see reset.css for details */
+.ReadMsgBody { width: 100%; background-color: #ffffff;}
+.ExternalClass {width: 100%; background-color: #ffffff;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, 
+.ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+
+#outlook a{ padding:0;}
+
+html{width: 100%; }
+body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none; }
+html,body {background-color: #ffffff; margin: 0; padding: 0; }
+table {border-spacing:0;}
+table td {border-collapse:collapse;}
+br, strong br, b br, em br, i br { line-height:100%; }
+h1, h2, h3, h4, h5, h6 { line-height: 100% !important; -webkit-font-smoothing: antialiased; }
+img{height: auto !important; 
+    line-height: 100%; 
+    outline: none; 
+    text-decoration: none; 
+    display:block !important;
+}
+
+span a { text-decoration: none !important;}
+a{ text-decoration: none !important; }
+table p{margin:0;} 
+
+.yshortcuts, .yshortcuts a, .yshortcuts a:link,.yshortcuts a:visited, 
+.yshortcuts a:hover, .yshortcuts a span {
+text-decoration: none !important; border-bottom: none !important; 
+} 
+
+table{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+img{ -ms-interpolation-mode:bicubic; }
+body{ -webkit-text-size-adjust:100%;}
+body{-ms-text-size-adjust:100%;}
+
+
+
+
+/*mailChimp class*/
+.default-edit-image{
+  height:20px;
+}
+
+.nav-ul{
+  margin-left:-23px !important;
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+}
+
+
+
+img{height:auto !important;}
+
+  td[class="image-270px"] img{
+    width:270px;
+    height:auto !important;
+    max-width:270px !important;
+  }
+  td[class="image-170px"] img{
+    width:170px;
+    height:auto !important;
+    max-width:170px !important;
+  }
+  td[class="image-185px"] img{
+    width:185px;
+    height:auto !important;
+    max-width:185px !important;
+  }
+  td[class="image-124px"] img{
+    width:124px;
+    height:auto !important;
+    max-width:124px !important;
+  }
+
+/* 
+
+main color = #4197b9
+
+
+
+background color = #ecebeb
+
+
+*/
+
+
+@media only screen and (max-width: 640px){
+  body{
+    width:auto!important;
+  }
+
+  table[class="container"]{
+    width: 100%!important;
+    padding-left: 20px!important; 
+    padding-right: 20px!important; 
+  }
+
+
+
+  td[class="image-270px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+  td[class="image-170px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+  td[class="image-185px"] img{
+    width:185px !important;
+    height:auto !important;
+    max-width:185px !important;
+  }
+  td[class="image-124px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+
+
+
+  td[class="image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+  }
+
+  td[class="small-image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+  }
+
+  table[class="full-width"]{
+    width:100% !important;
+  }
+
+  table[class="full-width-text"]{
+    width:100% !important;
+     background-color:#ffffff;
+     padding-left:20px !important;
+     padding-right:20px !important;
+  }
+
+  table[class="full-width-text2"]{
+    width:100% !important;
+     background-color:#ffffff;
+     padding-left:20px !important;
+     padding-right:20px !important; 
+  }
+
+  table[class="col-2-3img"]{
+    width:50% !important;
+    margin-right: 20px !important;
+  }
+    table[class="col-2-3img-last"]{
+    width:50% !important;
+  }
+
+
+  table[class="col-2-footer"]{
+    width:55% !important;
+    margin-right:20px !important;
+  }
+
+  table[class="col-2-footer-last"]{
+    width:40% !important;
+  }
+
+
+  table[class="col-2"]{
+    width:47% !important;
+    margin-right:20px !important;
+  }
+
+  table[class="col-2-last"]{
+    width:47% !important;
+  }
+
+  table[class="col-3"]{
+    width:29% !important;
+    margin-right:20px !important;
+  }
+
+  table[class="col-3-last"]{
+    width:29% !important;
+  }
+
+  table[class="row-2"]{
+    width:50% !important;
+  }
+
+  td[class="text-center"]{
+     text-align: center !important;
+   }
+
+  /* start clear and remove*/
+  table[class="remove"]{
+    display:none !important;
+  }
+
+  td[class="remove"]{
+    display:none !important;
+  }
+  /* end clear and remove*/
+
+  table[class="fix-box"]{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  td[class="fix-box"]{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+
+  td[class="font-resize"]{
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+
+  table[class="space-scale"]{
+    width:100% !important;
+    float:none !important;
+  }
+
+    table[class="clear-align-640"]{
+    float:none !important;
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 479px){
+  body{
+    font-size:10px !important;
+  }
+
+ table[class="container"]{
+    width: 100%!important;
+    padding-left: 10px!important; 
+    padding-right:10px!important; 
+  }
+
+   table[class="container2"]{
+    width: 100%!important; 
+    float:none !important;
+
+  }
+
+  td[class="full-width"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+
+
+  td[class="image-270px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+  td[class="image-170px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+  td[class="image-185px"] img{
+    width:185px !important;
+    height:auto !important;
+    max-width:185px !important;
+    min-width:124px !important;
+  }
+  td[class="image-124px"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+
+  
+
+  td[class="image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+  td[class="small-image-100-percent"] img{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+
+  table[class="full-width"]{
+    width:100% !important;
+  }
+
+  table[class="full-width-text"]{
+    width:100% !important;
+     background-color:#ffffff;
+     padding-left:20px !important;
+     padding-right:20px !important;
+  }
+
+  table[class="full-width-text2"]{
+    width:100% !important;
+     background-color:#ffffff;
+     padding-left:20px !important;
+     padding-right:20px !important;
+  }
+
+  table[class="col-2-footer"]{
+    width:100% !important;
+    margin-right:0px !important;
+  }
+
+  table[class="col-2-footer-last"]{
+    width:100% !important;
+  }
+
+
+
+  table[class="col-2"]{
+    width:100% !important;
+    margin-right:0px !important;
+  }
+
+  table[class="col-2-last"]{
+    width:100% !important;
+   
+  }
+
+  table[class="col-3"]{
+    width:100% !important;
+    margin-right:0px !important;
+  }
+
+  table[class="col-3-last"]{
+    width:100% !important;
+   
+  }
+
+    table[class="row-2"]{
+    width:100% !important;
+  }
+
+
+  table[id="col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+  }
+
+  td[id="col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+  }
+
+  td[class="col-underline"]{
+    float: none !important;
+    width: 100% !important;
+    border-bottom: 1px solid #eee;
+  }
+
+
+
+   /*start text center*/
+  td[class="text-center"]{
+    text-align: center !important;
+
+  }
+
+  div[class="text-center"]{
+    text-align: center !important;
+  }
+   /*end text center*/
+
+
+
+  /* start  clear and remove */
+
+  table[id="clear-padding"]{
+    padding:0 !important;
+  }
+  td[id="clear-padding"]{
+    padding:0 !important;
+  }
+  td[class="clear-padding"]{
+    padding:0 !important;
+  }
+  table[class="remove-479"]{
+    display:none !important;
+  }
+  td[class="remove-479"]{
+    display:none !important;
+  }
+  table[class="clear-align"]{
+    float:none !important;
+  }
+  /* end  clear and remove */
+
+  table[class="width-small"]{
+    width:100% !important;
+  }
+
+  table[class="fix-box"]{
+    padding-left:0px !important;
+    padding-right:0px !important;
+  }
+  td[class="fix-box"]{
+    padding-left:0px !important;
+    padding-right:0px !important;
+  }
+    td[class="font-resize"]{
+    font-size: 14px !important;
+  }
+
+  td[class="increase-Height"]{
+    height:10px !important;
+  }
+  td[class="increase-Height-20"]{
+    height:20px !important;
+  }
+
+}
+@media only screen and (max-width: 320px){
+  table[class="width-small"]{
+    width:125px !important;
+  }
+  img[class="image-100-percent"]{
+    width:100% !important;
+    height:auto !important;
+    max-width:100% !important;
+    min-width:124px !important;
+  }
+
+}</style>
+    </head>
+    <body style="font-size:12px; font-family:Roboto,Open Sans,Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; background-color:#ffffff; "><!--start 100% wrapper (white background) -->
+        <table border="0" cellpadding="0" cellspacing="0" id="mainStructure" style="background-color:#ecebeb;" width="100%"><!--START TOP NAVIGATION ​LAYOUT-->
+            <tbody>
+                <tr>
+                    <td valign="top">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"><!-- START CONTAINER NAVIGATION -->
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top"><!-- start top navigation container -->
+                                        <table align="center" bgcolor="#01164e" border="0" cellpadding="0" cellspacing="0" class="container" width="600">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top"><!-- start top navigaton -->
+                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" width="500"><!-- start space -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20" valign="top"></td>
+                                                                </tr>
+                                                                <!-- end space -->
+                                                                <tr>
+                                                                    <td valign="middle">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="container2"><!-- start space -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="10" valign="top"></td>
+                                                                                </tr>
+                                                                                <!-- end space -->
+                                                                                <tr>
+                                                                                    <td align="center" valign="top"><a href="#"><img alt="Logo" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/liberty-logo.jpg" style="max-width: 249px; border-style: none" vspace="0" width="249"></a></td>
+                                                                                </tr>
+                                                                                <!-- start space -->
+                                                                                <tr>
+                                                                                    <td class="increase-Height-20" valign="top"></td>
+                                                                                </tr>
+                                                                                <!-- end space -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <!--start content nav -->
+                                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="container2"><!--start Legacy Logo -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center" valign="middle">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="clear-align" style="height:100%;">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td><a href="#"><img alt="Logo" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/legacy-logo.jpg" style="max-width: 106px; border-style: none;" vspace="0" width="106"></a></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!--end Legacy Logo -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <!--end content nav --></td>
+                                                                </tr>
+                                                                <!-- start space -->
+                                                                <tr>
+                                                                    <td height="20" valign="top"></td>
+                                                                </tr>
+                                                                <!-- end space -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end top navigaton --></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- end top navigation container --></td>
+                                </tr>
+                                <!-- END CONTAINER NAVIGATION -->
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!--END TOP NAVIGATION ​LAYOUT-->
+                <!-- INFORMATION 3 COL --> 
+
+ <tr>
+   <td align="center" valign="top" class="fix-box">
+
+     <!-- start container width 600px --> 
+     <table width="600"  align="center" border="0" cellspacing="0" cellpadding="0" class="container" bgcolor="#ffffff" style="background-color: #ffffff; border-bottom:1px solid #c7c7c7;">
+       <tr>
+         <td valign="top">
+
+           <!-- start  container width 560px --> 
+           <table width="560"  align="center" border="0" cellspacing="0" cellpadding="0" class="full-width" bgcolor="#ffffff" style="background-color:#ffffff;">
+
+        
+              <!-- start image and content -->
+              <tr>
+                <td valign="top" >
+                  <!-- start content left -->                    
+                  <table width="170" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3"  >
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" ></td>
+                   </tr>
+                   <!--end space height --> 
+
+                   
+
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td  style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#555555; font-weight:300; text-align:center;">
+                              <span style="color: #555555; font-weight: 300;">
+                                <a href="#" style="text-decoration: none; color: #555555; font-weight: 300;">
+                                  Column&nbsp;one
+                                </a>
+                              </span>
+                            </td>
+                          </tr>
+
+
+                          
+
+                        </table>
+
+                      </td>
+                    </tr>
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" class="col-underline"></td>
+                   </tr>
+                   <!--end space height --> 
+
+                  </table>
+                   <!-- end content left -->                      
+
+                  <!-- start space width  -->                    
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left: 20px;">&nbsp;</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->                    
+
+                  <!-- start content center -->                    
+                  <table width="170" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3"  >
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" ></td>
+                   </tr>
+                   <!--end space height --> 
+
+
+                    <tr>
+                      <td>
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td  style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#555555; font-weight:300; text-align:center;">
+                              <span style="color: #555555; font-weight: 300;">
+                                <a href="#" style="text-decoration: none; color: #555555; font-weight: 300;">
+                                Column&nbsp;two
+                                </a>
+                              </span>
+                            </td>
+                          </tr>
+
+                       
+
+                          
+
+  
+                        </table>
+
+                      </td>
+                    </tr>
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" class="col-underline"></td>
+                   </tr>
+                   <!--end space height --> 
+
+                  </table>
+                   <!-- end content center -->                      
+
+                  <!-- start space width  -->                    
+                  <table class="remove" width="1" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                    <tr>
+                      <td width="0" height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                        <p style="padding-left:20px ">&nbsp;</p>
+                      </td>
+                    </tr>
+                  </table>
+                  <!-- end space width  -->                    
+
+                   <!-- start content right -->                    
+                  <table width="170" border="0" cellspacing="0" cellpadding="0" align="left" class="col-3-last"  >
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" ></td>
+                   </tr>
+                   <!--end space height --> 
+
+                    
+
+                    <tr>
+                      <td>
+                        <table  border="0" cellspacing="0" cellpadding="0" align="center" >
+                          <tr>
+                            <td  style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#555555; font-weight:300; text-align:center;">
+                              <span style="color: #555555; font-weight: 300;">
+                                <a href="#" style="text-decoration: none; color: #555555; font-weight: 300;">
+                                  Column three
+                                </a>
+                              </span>
+                            </td>
+                          </tr>
+
+                         
+
+                         
+
+      
+                        </table>
+
+                      </td>
+                    </tr>
+
+                   <!--start space height --> 
+                   <tr>
+                     <td height="20" ></td>
+                   </tr>
+                   <!--end space height --> 
+
+                  </table>
+                   <!-- end content right --> 
+
+                </td>
+              </tr>
+               <!-- end image and content -->
+
+           </table>
+           <!-- end container width 560px --> 
+         </td>
+       </tr>
+     </table>
+     <!-- end container width 600px -->
+   </td>
+ </tr>
+ <!-- INFORMATION 3 COL --> 
+
+                <!--START PROMO HEADER LAYOUT-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start HEADER LAYOUT-container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" width="600">
+                            <tbody>
+                                <tr>
+                                    <td class="image-100-percent" valign="top"><img alt="" height="317" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/liberty-promo.jpg" width="600"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end HEADER LAYOUT-container width 600px --></td>
+                </tr>
+                <!--END PROMO HEADER LAYOUT--><!-- START HEADING 1-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start  container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #01164e; " width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start container width 560px -->
+                                        <table align="center" bgcolor="#01164e" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#01164e;" width="500"><!--start space height -->
+                                            <tbody>
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                                <!--end space height --><!-- start text content -->
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" valign="top" width="auto"><!-- start button -->
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center" height="28" style=" background-color:#01164e; background-clip: padding-box; font-size:24px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:left; text-transform:uppercase;  color:#a3a2a2; font-weight: 300; padding-right:18px; " valign="middle" width="auto"><span style="color: #ffffff; font-weight: 300;">Heading 1 </span></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <!-- end button --></td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <!-- end text content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end  container width 560px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end  container width 600px --></td>
+                </tr>
+                <!-- END HEADING 1--><!-- START CONTENT AREA-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start layout-2 container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color: #ffffff;  " width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start layout-2 container width 600px -->
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#ffffff;" width="500"><!-- start image and content -->
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" width="100%"><!-- start content right -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="full-width-text" width="500"><!--start space height -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height --><!--start space height -->
+                                                                <tr>
+                                                                    <td class="remove" height="20"></td>
+                                                                </tr>
+                                                                <!--end space height --><!-- start text content -->
+                                                                <tr>
+                                                                    <td valign="top">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 22px; line-height: 24px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#555555; font-weight:300; text-align:left; text-transform:uppercase;"><span style="color: #555555; font-weight: 300;">Heading 2 </span></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="15"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:left; ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum.</td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td valign="top" width="auto"><!-- start button -->
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center" height="42" style=" background-color:#a6cbdb; background-clip: padding-box;font-size:15px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:center;  color:#a6cbdb; font-weight: 300; padding-left:18px; padding-right:18px; " valign="middle" width="auto"><span style="color: #01164e; font-weight: 300;"><a href="#" style="text-decoration: none; color: #01164e; font-weight: 500;">Button Style </a> </span></td>
+                                                                                                    <td><img border="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/button-style.png" style="border: 0px;"></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        <!-- end button --></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- end text content --><!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content right --></td>
+                                                </tr>
+                                                <!-- end image and content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end layout-2 container width 600px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end layout-2 container width 600px --></td>
+                </tr>
+                <!-- END CONTENT AREA  --><!-- START 4 Icons -->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start  container width 600px -->
+                        <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #ffffff; border-bottom:1px solid #c7c7c7;" width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start  container width 560px -->
+                                        <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#ffffff;" width="560"><!-- start image and content -->
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" width="100%"><!--  start image and content left -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="col-2" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="268">
+                                                            <tbody>
+                                                                <tr><!-- start image1 / 4column  -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top" width="0">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="92%"><!--start space height -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td align="center" class="image-124px" valign="top"><a href="#"><img alt="image10_280x224" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/icon1.jpg" style="display: block ! important; max-width: 124px; border-style: none;" vspace="0" width="124"> </a></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height --><!-- start text content -->
+                                                                                <tr>
+                                                                                    <td valign="top">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:center; ">124px Wide</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- end text content --><!--start space height -->
+                                                                                <tr>
+                                                                                    <td class="col-underline" height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- end image1 / 4column  --><!-- space width -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="space-scale" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="15">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top"></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- space width --><!-- start image2 / 4column  -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top" width="0">
+                                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="92%"><!--start space height -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td align="center" class="image-124px" valign="top"><a href="#"><img alt="image11_280x224" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/icon2.jpg" style="display: block ! important; max-width: 124px; border-style: none;" vspace="0" width="124"> </a></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height --><!-- start text content -->
+                                                                                <tr>
+                                                                                    <td valign="top">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:center; ">124px Wide</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- end text content --><!--start space height -->
+                                                                                <tr>
+                                                                                    <td class="col-underline" height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- end image2 / 4column  -->
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!--  end image and content left --><!-- start space width -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="remove" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="1">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="2" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="0">
+                                                                        <p style="padding-left: 20px;"></p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end space width --><!--  start image and content right -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="col-2-last" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="268">
+                                                            <tbody>
+                                                                <tr><!-- start image3 / 4column  -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top" width="0">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="92%"><!--start space height -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td align="center" class="image-124px" valign="top"><a href="#"><img alt="image12_280x224" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/icon3.jpg" style="display: block ! important; max-width: 124px; border-style: none;" vspace="0" width="124"> </a></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height --><!-- start text content -->
+                                                                                <tr>
+                                                                                    <td valign="top">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:center; ">124px Wide</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- end text content --><!--start space height -->
+                                                                                <tr>
+                                                                                    <td class="col-underline" height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- end image4 / 4column  --><!-- space width -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="space-scale" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="15">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top"></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- space width --><!-- start image2 / 4column  -->
+                                                                    <td style="font-size: 0;line-height: 0;border-collapse: collapse;" valign="top" width="0">
+                                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="92%"><!--start space height -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td align="center" class="image-124px" valign="top"><a href="#"><img alt="image13_280x224" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/icon4.jpg" style="display: block ! important; max-width: 124px; border-style: none;" vspace="0" width="124"> </a></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height --><!-- start text content -->
+                                                                                <tr>
+                                                                                    <td valign="top">
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:center; ">124px Wide</td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- end text content --><!--start space height -->
+                                                                                <tr>
+                                                                                    <td class="col-underline" height="50"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                    <!-- end image2 / 4column  -->
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!--  end image and content right --></td>
+                                                </tr>
+                                                <!-- end image and content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end container width 560px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end  container width 600px --></td>
+                </tr>
+                <!-- END 4 Icons --><!--START PROMO IMAGE LAYOUT-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start HEADER LAYOUT-container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" width="600">
+                            <tbody>
+                                <tr>
+                                    <td class="image-100-percent" valign="top"><img alt="" height="258" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/promo-2.jpg" width="600"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end HEADER LAYOUT-container width 600px --></td>
+                </tr>
+                <!--END PROMO IMAGE LAYOUT--><!-- START HEADING 1-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start  container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #01164e; " width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start container width 560px -->
+                                        <table align="center" bgcolor="#01164e" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#01164e;" width="500"><!--start space height -->
+                                            <tbody>
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                                <!--end space height --><!-- start text content -->
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" valign="top" width="auto"><!-- start button -->
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="center" height="28" style=" background-color:#01164e; background-clip: padding-box; font-size:24px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:left; text-transform:uppercase;  color:#a3a2a2; font-weight: 300; padding-right:18px; " valign="middle" width="auto"><span style="color: #ffffff; font-weight: 300;">Heading 1 </span></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <!-- end button --></td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                                <!-- end text content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end  container width 560px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end  container width 600px --></td>
+                </tr>
+                <!-- END HEADING 1--><!-- START CONTENT AREA-->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start layout-2 container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color: #ffffff;  " width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start layout-2 container width 600px -->
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#ffffff;" width="500"><!-- start image and content -->
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top" width="100%"><!-- start content right -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="full-width-text" width="500"><!--start space height -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height --><!--start space height -->
+                                                                <tr>
+                                                                    <td class="remove" height="20"></td>
+                                                                </tr>
+                                                                <!--end space height --><!-- start text content -->
+                                                                <tr>
+                                                                    <td valign="top">
+                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:center; ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempam et justo duo dolores et ea rebum.</td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td valign="top" width="auto"><!-- start button -->
+                                                                                        <table align="center" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center" height="42" style=" background-color:#a6cbdb; background-clip: padding-box;font-size:15px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:center;  color:#a6cbdb; font-weight: 300; padding-left:18px; padding-right:18px; " valign="middle" width="auto"><span style="color: #01164e; font-weight: 300;"><a href="#" style="text-decoration: none; color: #01164e; font-weight: 500;">Button Style </a> </span></td>
+                                                                                                    <td><img border="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/button-style.png" style=" border: 0px;"></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        <!-- end button --></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- end text content --><!--start space height -->
+                                                                <tr>
+                                                                    <td height="50"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content right --></td>
+                                                </tr>
+                                                <!-- end image and content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end layout-2 container width 600px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end layout-2 container width 600px --></td>
+                </tr>
+                <!-- END CONTENT AREA  --><!-- START CARD LAYOUT -->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start LAYOUT-6 container width 600px -->
+                        <table align="center" bgcolor="#ebebeb" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #ebebeb; border-bottom:1px solid #c7c7c7;" width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start LAYOUT-6 container width 560px -->
+                                        <table align="center" bgcolor="#ebebeb" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#ebebeb;" width="560"><!--start space height -->
+                                            <tbody>
+                                                <tr>
+                                                    <td height="20"></td>
+                                                </tr>
+                                                <!--end space height --><!-- start image content -->
+                                                <tr>
+                                                    <td valign="top" width="100%"><!-- start content left -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="full-width" width="270">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td align="left" class="image-270px" valign="top"><a href="#"><img alt="image8_480x260" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/liberty-card.jpg" style="display: block ! important; max-width: 270px; border-style: none;" vspace="0" width="270"> </a></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content left --><!-- start space width -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="remove" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="1">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="2" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="0">
+                                                                        <p style="padding-left: 20px;"></p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end space width --><!-- start content left -->
+                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="full-width" width="270"><!-- start text content -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td valign="top">
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 22px; line-height: 24px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#021445; font-weight:500; text-align:left;"><span style="color: #021445; font-weight: 300;"><a href="#" style="text-decoration: none; color: #021445; font-weight: 300;">Your new Own your life<br>
+                                                                                        card is on its way</a> </span></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="15"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 22px; font-family:Roboto,Open Sans,Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:left; ">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod .</td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="15"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td valign="top" width="auto"><!-- start button -->
+                                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="left" height="42" style=" background-color:#a6cbdb; background-clip: padding-box;font-size:15px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; text-align:center;  color:#a6cbdb; font-weight: 300; padding-left:18px; padding-right:18px; " valign="middle" width="auto"><span style="color: #01164e; font-weight: 300;"><a href="#" style="text-decoration: none; color: #01164e; font-weight: 500;">Button Style </a> </span></td>
+                                                                                                    <td><img border="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/button-style.png" style=" border: 0px;"></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        <!-- end button --></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!-- end text content -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content left --></td>
+                                                </tr>
+                                                <!-- end image content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end LAYOUT-6 container width 560px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end LAYOUT-6 container width 600px --></td>
+                </tr>
+                <!-- END CARD LAYOUT  --><!-- START LAYOUT-5 -->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start LAYOUT-5 container width 600px -->
+                        <table align="center" bgcolor="#01164e" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #01164e; border-bottom:1px solid #c7c7c7;" width="600">
+                            <tbody>
+                                <tr>
+                                    <td valign="top"><!-- start LAYOUT-5 container width 560px -->
+                                        <table align="center" bgcolor="#01164e" border="0" cellpadding="0" cellspacing="0" class="full-width" style="background-color:#01164e;" width="560"><!-- start image and content -->
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top"><!-- start content left -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="col-3" width="170"><!--start space height -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td align="left" class="image-170px" valign="top" width="100%"><img alt="image5_280x210" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/footercol.png" style="max-width: 170px; display: block ! important; border-style: solid;" vspace="0" width="170"></td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td>
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#ffffff; font-weight:300; text-align:left;"><span style="color: #ffffff; font-weight: 300;"><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">Column one </a> </span></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="5"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 18px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:left; ">
+                                                                                        <ul>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 1</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 2</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 3</a></li>
+                                                                                        </ul>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td class="col-underline" height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content left --><!-- start space width  -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="remove" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="1">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="0">
+                                                                        <p style="padding-left: 20px;"></p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end space width  --><!-- start content center -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="col-3" width="170"><!--start space height -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td align="left" class="image-170px" valign="top" width="100%"><a href=""> <img alt="image6_280x210" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/footercol.png" style="max-width:170px; display:block !important; " vspace="0" width="170"> </a></td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td>
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#ffffff; font-weight:300; text-align:left;"><span style="color: #ffffff; font-weight: 300;"><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">Column two </a> </span></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="5"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 18px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:left; ">
+                                                                                        <ul>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 1</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 2</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 3</a></li>
+                                                                                        </ul>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td class="col-underline" height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content center --><!-- start space width  -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="remove" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="1">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="3" style="font-size: 0;line-height: 0;border-collapse: collapse;" width="0">
+                                                                        <p style="padding-left:20px "></p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end space width  --><!-- start content right -->
+                                                        <table align="left" border="0" cellpadding="0" cellspacing="0" class="col-3-last" width="170"><!--start space height -->
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td align="left" class="image-170px" valign="top" width="100%"><a href=""> <img alt="image7_280x210" border="0" hspace="0" src="https://d1v8hxsh61vyat.cloudfront.net/users/assets/451/images/footercol.png" style="max-width:170px; display:block !important; " vspace="0" width="170"> </a></td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                                <tr>
+                                                                    <td>
+                                                                        <table align="left" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td style="font-size: 18px; line-height: 22px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#ffffff; font-weight:300; text-align:left;"><span style="color: #ffffff; font-weight: 300;"><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">Column three </a> </span></td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="5"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                                <tr>
+                                                                                    <td style="font-size: 13px; line-height: 18px; font-family:Roboto,Open Sans, Arial,Tahoma, Helvetica, sans-serif; color:#a3a2a2; font-weight:300; text-align:left; ">
+                                                                                        <ul>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 1</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 2</a></li>
+                                                                                            <li><a href="#" style="text-decoration: none; color: #ffffff; font-weight: 300;">List Item 3</a></li>
+                                                                                        </ul>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!--start space height -->
+                                                                                <tr>
+                                                                                    <td height="20"></td>
+                                                                                </tr>
+                                                                                <!--end space height -->
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <!--start space height -->
+                                                                <tr>
+                                                                    <td height="20"></td>
+                                                                </tr>
+                                                                <!--end space height -->
+                                                            </tbody>
+                                                        </table>
+                                                        <!-- end content right --></td>
+                                                </tr>
+                                                <!-- end image and content -->
+                                            </tbody>
+                                        </table>
+                                        <!-- end LAYOUT-5 container width 560px --></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!-- end LAYOUT-5 container width 600px --></td>
+                </tr>
+                <!-- END LAYOUT-5  --><!-- START LAYOUT-16 -->
+                <tr>
+                    <td align="center" class="fix-box" valign="top"><!-- start  container width 600px -->
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" class="container" style="background-color: #ffffff; border-bottom:1px solid #c7c7c7;" width="600"><!--start space height -->
+                            <tbody>
+                                <tr>
+                                    <td height="10"></td>
+                                </tr>
+                                <!--end space height -->
+                                <tr>
+                                    <td valign="top"><!-- start logo footer and address -->
+                                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td valign="top">
+                                                        <table align="right" border="0" cellpadding="0" cellspacing="0" class="clear-align" style="height:100%;">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td style="font-size: 12px;  line-height: 16px; color: #7f7f7f;  font-weight:300; text-align: right; font-family:Roboto,Open Sans,Arail,Tahoma, Helvetica, Arial, sans-serif; padding-right:10px;"><span style="text-decoration: none; color: #7f7f7f;"><a href="#" style="text-decoration: none; color: #7f7f7f; ">About Us</a> </span> &nbsp;|&nbsp; <span style="text-decoration: none; color: #7f7f7f;"> <a href="#" style="text-decoration: none; color: #7f7f7f; ">Customer Support </a> </span> &nbsp;|&nbsp; <span style="text-decoration: none; color: #7f7f7f;"> <a href="#" style="text-decoration: none; color: #7f7f7f; ">FAQ's</a> </span> &nbsp;|&nbsp; <span style="text-decoration: none; color: #7f7f7f;"> <a href="#" style="text-decoration: none; color: #7f7f7f; ">Terms &amp; Conditions </a> </span> &nbsp;|&nbsp; <span style="text-decoration: none; color: #7f7f7f;"> <a href="#" style="text-decoration: none; color: #7f7f7f; ">Unsubscribe</a> </span><br>
+                                                                        <span style="text-decoration: none; color: #7f7f7f;">Copyright 2014 Book Your Travel ltd. All rights reserved</span></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <!-- end logo footer and address --></td>
+                                </tr>
+                                <!--start space height -->
+                                <tr>
+                                    <td height="10"></td>
+                                </tr>
+                                <!--end space height -->
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!-- END LAYOUT-16--><!--start space height -->
+                <tr>
+                    <td height="20"></td>
+                </tr>
+                <!--end space height -->
+            </tbody>
+        </table>
+        <!-- end 100% wrapper (white background) --></body>
+</html>
